@@ -11,11 +11,9 @@ const powerSet = function (str) {
     return [...acc];
   }, []);
 
-  const power = recursive(str_set.sort());
+  const power2 = recursive(str_set.sort());
 
-  console.log(power);
-
-  return power.sort();
+  return power2.sort();
 };
 
 const recursive = function (arr) {
