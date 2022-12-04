@@ -13,6 +13,8 @@ const powerSet = function (str) {
 
   const power = recursive(str_set.sort());
 
+  console.log(power);
+
   return power.sort();
 };
 
